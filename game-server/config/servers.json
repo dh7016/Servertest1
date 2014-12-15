@@ -1,0 +1,33 @@
+{
+  "development":{
+    "connector": [
+    {"id": "connector-server-1", "host": "120.132.48.147", "port": 22, "clientPort": 3389, "frontend": true}
+    ],
+  
+
+   "gate": [
+  
+    {"id": "gate-server-1", "host": "120.132.48.147", "port": 22, "clientPort": 3389, "frontend": true}
+    ],
+    
+    "login": [
+    {"id": "login-server-1", "host": "120.132.48.147", "port": 22, "clientPort": 3389, "frontend": true }
+    ]
+
+  },
+  "production":{
+    "connector": [
+    {"id": "connector-server-1", "host": "120.132.48.147", "port": 22, "clientPort": 3389, "frontend": true}
+    ],
+    
+    "gate": [
+    {"id": "gate-server-1", "host": "120.132.48.147", "port": 22, "clientPort": 3389, "frontend": true}
+    ],
+
+    "login": [
+    {"id": "login-server-1", "host": "120.132.48.147", "port": 22, "clientPort": 3389, "frontend": true }
+    ]
+
+
+  }
+}
